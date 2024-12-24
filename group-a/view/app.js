@@ -11,7 +11,9 @@ const getTemplate = () => {
 const addEvents = (targetElement, events) => {
   targetElement.querySelector('.new-todo').addEventListener('keypress', (e) => {
     if (e.key == 'Enter') {
-      if (e.target.value != '') {
+      if (e.target.value == '') {
+        alert('값을 입력해주세요 : )');
+      } else {
         events.addItem(e.target.value);
       }
       e.target.value = '';
