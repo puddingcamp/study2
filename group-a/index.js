@@ -26,7 +26,6 @@ const events = {
       text,
       completed: false,
     });
-    state.todos = []
     render();
   },
 };
