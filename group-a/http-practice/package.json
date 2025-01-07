@@ -1,0 +1,19 @@
+{
+  "name": "http-practice",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "^4.21.2",
+    "http-server": "^14.1.1",
+    "lodash.findindex": "4.6.0",
+    "uuid": "3.3.2"
+  }
+}
